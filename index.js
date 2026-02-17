@@ -1,19 +1,17 @@
-// for (let i = 1; i <= 5; i++) {
-//     console.log(i);
-// }
-// let i = 1;
-// for (; i <= 5; ) {
-//   if (i % 2 == 0) {
-//     console.log(i + 1);
-//   }
-//   else {
-//     console.log(i - 1);
-//   }
-//    i++;
-// }
+let name = "Iulia";
+let birthYear = 1997;
+let isStudent = true;
+console.log(name, birthYear, isStudent);
 
-// i = "Anna";
-// console.log(i);
+let score = prompt("Введите ваш балл:");
+if (score >= 90) {
+  console.log("Отлично!");
+} else if (score >= 70) {
+  console.log("Хорошо");
+} else {
+  console.log("Можно лучше!");
+}
 
-alert("Этот код выполнен из внешнего файла!");
-console.log("Сообщение в консоли");
+for (let i = 1; i <= 5; i++) {
+  console.log(`Итерация: ${i}`);
+}
